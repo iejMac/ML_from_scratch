@@ -1,6 +1,13 @@
 # ML_from_scratch
 Machine learning algorithms implemented from scratch in numpy
 
+### Neural Networks:
+Project file: binary.py
+
+Description:
+This project was meant to test my understanding of how neural networks work. Going in, my hypothesis was that if I understand backprop correctly, then if I set the input data to be numbers represented in binary, and the output data to be the same number in decimal, the weights of the network should converge to: 2<sup>0</sup>... 
+
+
 ### Convolutional Neural Networks:
 Project file: firstCNN.py
 
