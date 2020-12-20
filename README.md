@@ -5,7 +5,7 @@ Machine learning algorithms implemented from scratch in numpy
 Project file: binary.py
 
 Description:
-This project was meant to test my understanding of how neural networks work. Going in, my hypothesis was that if I understand backprop correctly, then if I set the input data to be numbers represented in binary, the output data to be the same number in decimal, and only give it one layer, the weights of the network should converge to: 2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup>, 2<sup>5</sup>, 2<sup>6</sup>, ... depending on how how many neurons I give it and the range of the training data. If you go ahead and run binary.py with enough epochs to overfit the training data, you see that this is the truth. 
+This project was meant to test my understanding of how neural networks work. Going in, my hypothesis was that if I understand backprop correctly, then if I set the input data to be numbers represented in binary, the output data to be the same number in decimal, and only give it one layer, the weights of the network should converge to: 2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup>, 2<sup>5</sup>, 2<sup>6</sup>, ... depending on how how many neurons I give it and the range of the training data. If you go ahead and run binary.py with enough epochs to overfit the training data, you see that this is the truth. (I think this is a pretty good experiment for people new to neural networks)
 
 ### Convolutional Neural Networks:
 Project file: firstCNN.py
