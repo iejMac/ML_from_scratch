@@ -20,3 +20,14 @@ Description:
 Implemented simple CNN to predict whether the face represented as a numpy array is smiling, frowning, or neutral. Additionally we can check the filters after training and see that they have an interpretable state (curves that help with classify frowns or smiles).
 At the end of firstCNN.py there are 3 arrays (face1, face2, face3), feel free to change around the faces and see if it still generalizes to predict them correctly. Keep in mind that if someone other than you can barely classify the emotion, the network will probably have trouble too.
 
+### Recurrent Neural Networks:
+##### Project file: firstRNN.py
+
+Description:
+
+Implemented recurrent neural network to predict the word "hello". The only goal was to overfit on this word and verify that these networks actually work and can learn. The concept is really interesting to me, and I've never thought of the of memory in that way. You can almost think of it as getting the information from time step t as a ball of play doh, molding it in a way that adds information to it and passing it to a friend at time step t+1. At the end of this entire pipeline, the last friend is to make a decision based on all of the molds from time steps 0...T-1
+
+
+
+
+
