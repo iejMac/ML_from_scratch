@@ -25,7 +25,7 @@ At the end of firstCNN.py there are 3 arrays (face1, face2, face3), feel free to
 
 Description:
 
-Implemented recurrent neural network to predict the word "hello". The only goal was to overfit on this word and verify that these networks actually work and can learn. The concept is really interesting to me, and I've never thought of the of memory in that way. You can almost think of it as getting the information from time step t as a ball of play doh, molding it in a way that adds information to it and passing it to a friend at time step t+1. At the end of this entire pipeline, the last friend is to make a decision based on all of the molds from time steps 0...T-1
+Implemented character-level recurrent neural network to predict the word "hello" from the letter 'h'. The only goal was to overfit on this word and verify that these networks actually work and can learn. The concept is really interesting to me, and I've never thought of the of memory in that way. You can almost think of it as getting the information from time step t as a ball of play doh, molding it in a way that adds information to it and passing it to a friend at time step t+1. At the end of this entire pipeline, the last friend is to make a decision based on all of the molds from time steps 0...T-1.
 
 
 
