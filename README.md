@@ -27,6 +27,18 @@ Description:
 
 Implemented character-level recurrent neural network to predict the word "hello" from the letter 'h'. The only goal was to overfit on this word and verify that these networks actually work and can learn. The concept is really interesting to me, and I've never thought of the of memory in that way. You can almost think of it as getting the information from time step t as a ball of play doh, molding it in a way that adds information to it and passing it to a friend at time step t+1. At the end of this entire pipeline, the last friend is to make a decision based on all of the molds from time steps 0...T-1.
 
+### Support Vector Machines:
+##### Project file: firstSVM.py | betterSVM.py
+
+Description:
+
+Code is meant to correctly predict the parameters of a linear function that divides the data utilizing a "vanilla" SVM. betterSVM.py is just the more polished version of the code.
+
+##### Project file: betterSVMwithKernel.py
+
+Description:
+
+Does the same thing as firstSVM.py and betterSVM.py except it utilizes the kernel trick. Currently it only supports the polynomial kernel but the modularity of the code makes it easy to implement other kernels. Tested on a couple of datapoints from different polynomials with different degrees. Neat visualization with matplotlib.
 
 
 
